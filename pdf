@@ -1,0 +1,341 @@
+Informe Investigacion PIA
+“Prototipo funcional de traductor Mapudungun-Español Español-Inglés”
+
+
+
+
+
+
+
+
+
+Académico: Dr. Oscar Magna Veloso
+Asignatura: Gestión de Proyectos Informáticos
+Sección: 411
+Fecha de entrega: 12/04/2023
+Índice de contenidos
+1. Introducción	3
+2. Antecedentes generales	3
+2.1. Metodología General proyecto anterior	3
+2.2. Descripción de herramientas de desarrollo utilizadas y entornos en los que se desarrolló (Tecnologías usadas)	4
+2.3. Dataset del proyecto anterior	6
+2.3.1 Redes neuronales.	6
+2.3.1.1 Redes neuronales monocapa-Perceptrón simple	6
+2.3.1.2. Redes neuronales multicapas -Perceptrón multicapa	8
+2.3.1.3. Red neuronal no recurrente (RNN)	8
+2.3.1.4. Red neuronal recurrente (RNN)	8
+3. Objetivos	9
+3.1. Objetivo general	9
+3.2. Objetivos específicos	9
+4. Metodología	10
+5. Estudio Bibliométrico	10
+.Ejecutables, cualquier otra cosa que crean que es un tópico importante lo agregan	11
+
+Introducción
+En este documento se presenta el relevamiento de información que vayamos encontrando en el trabajo anterior. La idea de este documento es aclarar el contexto en el que actualmente se encuentra la asignatura con respecto a la mejora del prototipo funcional del traductor. Dentro del informe se señala la metodología general del proyecto anterior, en conjunto con la metodología propuesta para el ambiente de desarrollo del mismo.
+Antecedentes generales
+El tema y objetivo principal de este proyecto comprende la transcripción de voces, las cuales provienen de un idioma originario (en este caso Mapudungun) hacia un idioma contemporáneo (español e inglés), además, al ser un proyecto de continuidad, se busca realizar una mejora a un prototipo básico ya existente con la finalidad de obtener una mayor plusvalía al proyecto y la empresa.
+2.1. Metodología General proyecto anterior
+Ilustración N°X: Diagrama de metodología anterior.
+
+
+Durante el proyecto anterior establecieron esta metodología.
+Teniendo como referencia control y gestión la herramienta EVM, cuenta con 7 fases las cuales mantuvieron durante todo el semestre académico.
+A continuación se especifica el propósito de cada fase:
+Fase N°1: Relevo de información de Proyecto GPI 2022-I
+Se habla acerca de la recopilación de la información respecto al proyecto realizado en el semestre anterior (GPI 2022-I). En el documento respectivo se debate acerca del objetivo del proyecto, consigo también se señala:
+“...Para ello se debe mejorar el prototipo funcional de carácter básico de transcripción automática implementado en GPI 2021-I y GPI 2021-II, y construir un prototipo funcional de sistema de transcripción de análisis de voz, implementando técnicas de NLP, DL y la tecnología STS.”
+El cómo se obtuvo la información, dentro de la sección 5.5 del informe de avance N°1, se habla acerca de cómo se obtuvo la información. Dentro de los puntos importantes a destacar, señala que la cantidad de publicaciones utilizadas para la investigación de la materia, provenían mayoritariamente de archivos etiquetados bajo las categorías “Machine Learning”, “Deep learning”, “Transformer” y las conjugaciones de los mismos. Junto con lo anterior, se indica que también se utilizaron diversas bases de datos en donde se ubican publicaciones en ProQuest, seguido de ScienceDirect, señalando que la diferencia entre ambas era enorme.
+Las bases de datos utilizadas fueron:
+ProQuest
+ScienceDirect
+Scopus
+WoS
+Oxford academic
+IEEE Xplore
+Cabe señalar que estas herramientas son bases de datos y plataformas de investigación en línea que proporcionan acceso a artículos académicos y científicos, libros, informes, patentes y otra información científica y técnica relevante. 
+Los parámetros de búsqueda se encuentran entre los años 2000-2022. Entre las publicaciones que se investigaron, abarcan los siguientes tópicos:
+Future generation computer systems
+Journal of Big data
+Neural networks
+Transactions of the association for computational linguistics
+PloS One
+Expert systems with applications
+También se habla acerca de la información con respecto a 3 sistemas gráficos para la escritura en Mapudungun:
+Alfabeto Mapuche Unificado (AMU)
+Alfabeto Raguileo
+Grafemario Azümchefe
+Fase N°2: Análisis de Proyecto GPI 2022-I
+Una vez que los respectivos integrantes al equipo de investigación recolectarán la información, se procedió al análisis de la misma, generando consigo diferentes tablas con la totalidad de los datos cuantificados por cada una de las bases de datos antes mencionadas. Se identifica que el término “NLP” es el término con más resultados obtenidos. Se observa también que entre las bases de datos mencionadas, las que obtuvieron una mayor cantidad de datos obtenidos fueron las siguientes:
+SpringerLink (43%)
+ProQuest (32%)
+Science Direct (19%)
+Como observación, IOPScience contiene resultados desde los últimos 5 años, por otra parte, las demás bases de datos tienen resultados desde los últimos 10 años.
+
+Finalmente, dentro del análisis, se establecen los principales títulos que se utilizarían dentro de la investigación.
+
+Base de datos
+Título
+Categoría
+IOPScience
+Machine Translation and Computer Aided English Translation
+Machine Learning and Translation
+Google Scholar
+Machine Translation: Mining text for social theory
+Machine Learning and Translation
+SpringerLink
+Urban land ecological evaluation and English translation model optimization based on machine learning
+Machine Learning and Translation
+ScienceDirect
+LeapASL: A platform for design and implementation of real time algorithms for translation of American Sign Language using personal supervised machine learning models
+Machine Learning and Translation
+IOPScience
+Computer Technology Applied to Machine Translation and Speech Recognition
+Speech-to-Speech and Translation
+Google Scholar
+Verbmobil: foundations of Speech-to-Speech translation
+Speech-to-Speech and Translation
+SpringerLink
+Speech-to-Speech Translation
+Speech-to-Speech and Translation
+Google Scholar
+Foreign language translation tool
+Language and Translation Tool
+IOPScience
+Research on the Application of NLP Artificial Intelligence Tools in University Natural Language Processing
+Natural Language Processing
+IEEE Xplore
+A survey of the usages of deep learning for natural language processing
+Natural Language Processing
+Google Scholar
+Natural language processing
+Natural Language Processing
+Google Scholar
+Machine Learning translation using deep learning: An overview
+Deep Learning and Translation
+
+
+En lo que respecta al análisis cualitativo de resultados, se refiere a la selección de títulos relevantes para un proyecto relacionado con el procesamiento de lenguaje natural (NLP), machine learning y deep learning. El objetivo es desarrollar un prototipo que involucre speech to speech, translation y herramientas de traducción. Se espera encontrar información sobre el estado actual de estas tecnologías en los artículos de Google Scholar e IOP Science, y se describen los criterios de selección de títulos relevantes para el proyecto.
+Fase N°3: Investigación idiomas involucrados
+Tras el análisis de la información obtenida, se investigó acerca de la estructura del lenguaje mapudungun. Con esto se elaboró la documentación respectiva, la cual describe brevemente el origen de la lengua, la estructura gramatical, como funciona el sistema fonológico y los diferentes alfabetos.
+A continuación se listan las referencias bibliográficas las cuales aportaron a la investigación antes mencionada:
+
+Hernandez, A, Ramos, N, Huenchulaf, R. (2006). Gramática Básica de la Lengua Mapuche. Editorial UC, TEMUCO. Tomo 1.
+Lara, M. (2012). Aprender a leer y escribir en lengua mapudungun, como elemento de recuperación y promoción de la cultura mapuche en la sociedad del siglo XXI.
+Raguileo, A (1990). MORFOSINTAXIS DE LA LENGUA MAPUCHE. Universidad de La Frontera.
+Wittig, F. (2006). La escritura en mapudungun: alfabetos en uso y nuevos escenarios.
+Zuñiga, M. (2006). MAPUDUNGUN El habla mapuche. CENTRO DE ESTUDIOS PÚBLICOS.
+Tras el estudio del material bibliográfico, se procedió a dar el pie para la realización de un apartado enfocado hacia la practicidad de la lengua mapuche, definiendo consigo los fonemas que se utilizarán para la realización de las grabaciones de la lengua, con el propósito de entrenar el modelo de traducción.
+Las grabaciones fueron realizadas con la ayuda de una facilitadora, docente de la lengua, en conjunto de un voluntario para llevar a cabo las pronunciaciones y grabaciones.
+Fase N°4: Planificación del software
+Diseño del modelo conceptual
+Una vez establecido el modelo ML, se elaboró un modelo conceptual que muestra de manera general cómo funciona cada uno de los elementos que conforman el producto entregable. Este modelo también describe los entornos y herramientas que se utilizaron para su creación.
+
+Se estipula que los datos de entrada son Excel extensión CSV.
+Estos serán limpiados usando Script en C y Limpieza en Excel.
+El mainframe está conformado por Python, Flutter, Dart y Lenguaje C.
+Todo esto con un ambiente de desarrollo en Google Colab y docker.
+Con arquitectura tipo Clean Architecture.
+Dentro de aquello el entrenamiento de la IA y la traducción serán realizadas por Tensor Flow, Keras y Google Translate Api. Todo esto permitirá el funcionamiento del Front para la traducir entre el Mapudungun, el Inglés y el Español. Usado por usuarios finales, desarrolladores y empresas.
+
+Arquitectura de front-end
+Los compañeros del semestre 2022 ll mejoraron la arquitectura de front que hicieron en el semestre l del 2022 y agregaron capas nuevas. La capa de Presentación es responsable de la parte visual de la aplicación, mientras que la capa de Dominio contiene los archivos estáticos que no cambiarán. La capa de Datos define las implementaciones y la relación de los distintos flujos de información que pasan a través de la aplicación. Estas mejoras se realizaron siguiendo los principios de clean architecture, que buscan ocultar los detalles de implementación de la lógica de dominio de la aplicación para facilitar su escalabilidad en el futuro. En resumen, se ha mejorado la arquitectura para hacer que la aplicación sea más fácil de mantener y escalar en el futuro.
+Fase N°5: Modelo y diseño del prototipo
+Fase N°6: Desarrollo e Implementación
+Fase N°7: Análisis de resultados
+
+2.1.1 Metodología de desarrollo
+En el ámbito de desarrollo, se utilizó una metodología ágil llamada ScrumBan, que se centra en sprints de una semana de duración y en la gestión de actividades a través de un tablero Kanban en Notion 6. En este tablero, se pueden encontrar diferentes categorías, como Epics (iniciativas de gran alcance), Sprints (iniciativas con un tiempo limitado), Tasks (acciones que conforman la épica), Bugs (tareas para arreglar cosas) y Size (el tiempo que tarda cada tarea). También hay diferentes estados de actividad, como Backlog (actividades pendientes), Blocked (actividades detenidas por dependencia) y Completed (actividades finalizadas). El equipo está liderado por un responsable del backend, que supervisa a un equipo de 8 personas, y un responsable del frontend, que supervisa a un equipo de 3 personas. Además, hay un entorno de desarrollo colaborativo para probar el modelo principal antes de pasar al entorno de producción.
+
+
+
+2.2. Descripción de herramientas de desarrollo utilizadas y entornos en los que se desarrolló (Tecnologías usadas) ( se habla con mayor detalle en el estudio bibliométrico)
+Se definieron términos relevantes para el desarrollo del proyecto anterior  y sus correspondientes relaciones .
+Inteligencia artificial (IA): Desarrollo de sistemas y máquinas inteligentes que puedan llevar a cabo tareas que requerirían inteligencia humana.
+Machine learning (ML): es un subconjunto de la inteligencia artificial, algoritmos cuyo rendimiento mejora a medida que son expuestos a más datos con el tiempo
+Deep learning (DL): corresponde a un subconjunto de machine learning en el cual redes neuronales multicapa aprenden de una enorme cantidad de datos.
+Speech to speech (StS): Sistema reconoce un lenguaje hablado el cual a partir de análisis de voz y del lenguaje natural, genera un audio sintético como respuesta.
+Language (L): Facultad del ser humano de expresarse y comunicarse con los demás por medio de sonidos o sistemas de signos.
+Translation (T): Acción de expresar en una lengua lo que está escrito o se ha expresado antes en otra
+Translation tool (TT): Sistema que facilita el proceso de traducción
+Natural language processing (NLP): corresponde a un campo de las ciencias de la computación, específicamente de la rama de inteligencia artificial, que ayuda a las computadoras a entender e interpretar y manipular el lenguaje humano.
+Anidaciones:
+ML and T
+StS and T
+L and TT
+NLP
+DL and T
+Para ello se inició el proyecto del traductor español-mapudungun con el objetivo de “Ingresar Oraciones en mapudungun a español y viceversa, utilizando como base la representación de fonemas en lugar de letras, para así realizar transcripciones entre inglés-español y mapudungun-español”. Para ello se recopiló la información dejada por los predecesores de GPI-PI 2022-I, con la cual se decidió un modelo de secuencia a secuencia (seq 2 seq, red codificador-decodificador) de dos redes neuronales recurrentes compuestas por un 1 encoder y 2 decoders implementando técnicas de mecanismo de atención durante la programación para otorgar mayor eficacia, limpieza y mejoría al traductor.
+Con el objetivo de crear el traductor español-mapudungun, se llevó a cabo un prototipo funcional implementando técnicas de NLP (Natural Language Processing), DL (Deep Learning) y tecnología STS (Speech To Speech). Realizando un previo análisis en cuanto a la documentación que existe en la actualidad sobre tecnologías relacionadas al proyecto utilizando bases de datos, las cuales corresponden a:
+IOP science
+Google Scholar
+SpringerLink
+ProQuest
+ScienceDirect
+Scopus
+Web of Science
+Oxford academic
+IEEE Xplore
+A partir de las bases de datos, se definieron términos relevantes para llevar a cabo el desarrollo del proyecto, sumado a relaciones que serían fundamentales para la investigación.
+2.3. Dataset del proyecto anterior
+El conjunto de datos utilizado proviene de una investigación realizada por “AVENUE project by CMU, the Chilean Ministry of Education, and the Instituto de Estudios Indígenas at Universidad de La Frontera”, este último fue reestructurado para que se adecue al modelo planteado. Dicho repositorio cuenta con aproximadamente 230.000 registros de frases en mapudungun y su traducción al español alrededor de 300 archivos de texto.
+Podemos encontrar información sobre diálogos cotidianos de personas hablantes del mapudungun.
+La carpeta “Transcription” contiene archivo ejecutable:
+ .mar: Es un archivo ejecutable que le da el orden a los diálogos.
+.trl: El diálogo transcrito en su idioma origen.
+.set: Contiene información sobre los ejecutables.
+La carpeta “Translation” contiene:
+Diálogo cotidiano entre hombre-mujer.
+Ordenado correlativamente por archivo, es decir la conversación sigue su curso a medida que se avanza en los archivos.
+Contiene la frase original en mapudungun y su frase traducida al español.
+Junto a ello, se encuentran carpetas con los anteriormente mencionados, pero con datos limpiados.
+2.3.1. DataSet Vocabulary Mapudungun
+Este dataset es un diccionario Mapudungun-inglés, el cual contiene 1.365 pares de palabras con su respectivo significado, los que están repartidos en más de 100 páginas. Es decir, tenemos:
+Palabra Mapudungun -> Significado Inglés
+2.3.1.1. Procesamiento de voz
+El “Speech to Text” es una tecnología de reconocimiento de voz, el cual, mediante la identificación de patrones de ondas sonoras, convierte estos patrones con los fonemas del habla para, finalmente, traducirlos en texto. Para un desarrollo de la funcionalidad de procesamiento de voz inglés- Español, analizamos las distintas herramientas que se presentan para realizar de mejor manera esta implementación.
+IBM Watson: La tecnología IBM Watson® Speech to Text permite una rápida y precisa transcripción de voz en varios idiomas para diversos casos de uso, incluidos, entre otros, el autoservicio de clientes, la asistencia de agente y la analítica de voz. Estos pueden ser trabajados con los modelos avanzados predefinidos de machine learning.
+Se puede realizar una prueba del software de Speech to Text desde el sitio web de IBM Watson.
+Donde permite traducir distintos tipos de idiomas siendo los más importantes:
+Inglés
+Español
+Portugués
+Japonés
+Mandarín
+La metodología de traducción que realizan se puede realizar a través de un micrófono y/o la subida de un archivo tipo .mp3, .mpeg, .wav, .flac, or .opus.
+El sistema recomienda utilizar pistas de audio simples, sin sonidos de fondo.
+El resultado de esta traducción a texto, muestra adicional al texto, palabras claves y texto alternativo, siendo una función que se encuentra en un estado muy temprano de desarrollo.Importante: el software puede elaborar un tipo JSON son el texto traducido.
+Speechtexter: SpeechTexter es una aplicación gratuita de conversión de voz en varios idiomas que tiene como objetivo ayudarle con la transcripción de cualquier tipo de documentos, libros, informes o publicaciones de blog utilizando su voz. SpeechTexter permite agregar comandos de voz personalizados para los signos de puntuación y algunas acciones (deshacer, rehacer, crear un nuevo párrafo).
+Soporta los lenguajes más populares del mundo:
+Inglés
+Español
+Alemán
+Francés
+Italiano
+Esta aplicación se puede utilizar 100% gratis a través del link proporcionado, permitiendo utilizar el micrófono para la traducción, brindando la posibilidad de descargar el texto.
+Para la utilización de este, se solicita utilizar el navegador de Google Chrome y activar el micrófono en configuraciones.
+Otter: Otter es un software de transcripciones que está diseñado para ayudar a instituciones educativas y empresas corporativas a generar notas para reuniones, entrevistas y conferencias a través de dictado de voz o transcripción de archivos. Esta solución con IA permite a las organizaciones grabar, editar, organizar y guardar notas de voz e interacciones en un repositorio centralizado.
+Además, permite la creación de transcripciones en tiempo real con archivos de audio, texto y fotos, importar grabaciones de vídeo desde aplicaciones externas y crear grupos de usuarios para compartir notas de voz en bloque. Otter permite a los administradores colaborar con los miembros del equipo para resaltar frases clave y editar notas en tiempo real. La aplicación también posibilita que los administradores agreguen usuarios en la plataforma, configuren permisos y generen informes basados en las estadísticas de uso.
+Otter posee un plan básico gratuito de 600 minutos de “Speech to text” para uso de aplicación, la cual funciona como extensión de Chrome.
+Amberscript API: La API que ofrece Amberscript permite una conversión de voz a texto, según ellos, más precisa que las otras del mercado y también a un precio más bajo. Entre sus características se pueden encontrar:
+Modelos ASR (Automated Speech Recognition) personalizados.
+Permite exportar información detallada respecto a un audio. Lo más destacado es que puede dejar timestamps de la hora de inicio y finalización por palabra, indicadores de signos de interrogación y puntuación.
+Soporte a varios lenguajes.
+Según el sitio web de Amberscript, sus precios varían entre $0.50 y $9.00 USD la hora. Debido a que sus precios dependen de los casos de uso.
+Es importante señalar que ellos mismos afirman que es posible entrenar su API de reconocimiento de voz para un vocabulario en específico.
+Ofoct: Este sitio web es una herramienta online (gratuita) de reconocimiento de voz a texto, la cual utiliza la tecnología de un proyecto open source llamado CMUSphinx. Para utilizar la herramienta se pueden subir archivos de audio con los siguientes formatos mp3, wav, wma, ogg.
+CMUSphinx Open Source Code: El proyecto de código abierto CMUSphinx dejó de tener actualizaciones en octubre de 2019, debido a que el equipo ha estado trabajando en diversos proyectos relacionados a la misma área. En el GitHub de CMUSphinx sigue habiendo actualizaciones a repositorios de las toolkits, estos son:
+Pocketsphinx — Librería de reconocimiento de voz ligera escrita en C.
+Sphinxbase — Una librería necesaria de Pocketsphinx.
+Sphinx4 — Librería de reconocimiento de voz escrita en Java.
+Sphinxtrain — Herramienta de entrenamiento de modelos acústicos.
+Estas herramientas sirven para construir modelos “Speech to text”. Por propias palabras de los desarrolladores (y debido a que es de código abierto), hay cosas que actualmente no se pueden realizar con este modelo, tales como:
+La construcción de un modelo fonético capaz de manejar un vocabulario infinito.
+El post procesamiento del resultado de la decodificación.
+La extracción del sentido.
+Desde el mismo sitio web recomiendan su nueva API Vosk, la cual también es de código abierto.
+Actualmente el equipo se llama Alpha Cephei.
+Speech to text by Microsoft Azure: Microsoft Azure ofrece un producto que cuenta con más de 100 idiomas, en los que se encuentran varios tipos de español correspondientes a varios países, ya sean español de Chile, México, Perú, etc. Las características ofrecidas son las siguientes:
+Transcripción de alta calidad.
+Modelos personalizables, ya que es posible crear modelos propios de “Speech to text”.
+Su implementación es flexible, se puede ejecutar en la nube o en Dockers.
+Precios flexibles debido a que solo se paga por lo que usa en función del número de horas de audio que transcriba, sin costos iniciales.
+2.3.1 Redes neuronales.
+2.3.1.1 Redes neuronales monocapa-Perceptrón simple
+Son redes con una sola capa y, por lo general, son las más sencillas de hacer, la capa de entrada también podría considerarse una capa, pero al no hacer cálculos no se tiene en cuenta a la hora de clasificarse. La capa de entrada se conecta a la capa de neuronas de salida que realizan determinados cálculos. Para unirse las neuronas crean conexiones laterales para conectar con otras neuronas de su
+capa. Las redes neuronales monocapa más representativas son la red de Hopfield, la red BRAIN-STATE-IN-A-BOX o memoria asociativa y las máquinas estocásticas de Boltzmann y Cauchy.
+
+2.3.1.2. Redes neuronales multicapas -Perceptrón multicapa
+
+Las redes neuronales multicapa están formadas por varias capas de neuronas.Entre las conexiones de entrada y salida, existen diversas capas de neuronas que hacen de intermediarias, denominadas capas ocultas. Estas capas de neuronas pueden conectarse entre ellas o no.
+Normalmente estas capas están ordenadas de forma que el flujo de información o señal vaya desde la entrada hasta la salida. A este tipo se les llama feedforward o hacia delante. También existen algunas redes que contienen neuronas que están conectadas desde la salida hacia la entrada. A este tipo se les llama feedback o retroalimentación. (Sossa, 2021).
+2.3.1.3. Red neuronal no recurrente (RNN)
+En este tipo de red la información de la red neuronal funciona en una sola dirección. No existe retroalimentación y carecen de memoria. Este tipo de red no se usa mucho, pero posee algoritmos que son utilizados en las redes recurrentes. (Great Learning Team, 2021).
+2.3.1.4. Red neuronal recurrente (RNN)
+Una red neuronal recurrente está diseñada para registrar la salida de la capa e itera sobre la entrada para ayudar a predecir el resultado de la capa. Por lo general, la primera capa es una red neuronal de retransmisión, seguida de una capa de red neuronal periódica, donde la función de memoria recuerda alguna información que tenía en el paso del tiempo anterior. En este caso, se realiza la propagación directa. Se almacena la información necesaria para uso futuro. Si la predicción es incorrecta, la tasa de aprendizaje se utiliza para realizar pequeños cambios. Por lo tanto, provoca que aumente gradualmente para hacer la predicción correcta durante la retro propagación. (Great Learning Team,2021).
+Objetivos
+3.1. Objetivo general
+Se debe mejorar el prototipo funcional de carácter básico de transcripción automática implementado en GPI 2021-I, GPI 2021-II, GPI 2022-I, GPI 2022-Il considerando un aumento de la precisión hasta un 80% de efectividad y construir un prototipo funcional de sistema de transcripción de análisis de voz, implementando técnicas de NLP, DL y la tecnología STS.
+3.2. Objetivos específicos
+Mejorar el análisis bibliométrico de las fases anteriores del proyecto usando las bases de datos. Scopus, WoS, IEEE Xplore, Proquest Engineering, Proquest D&T, Science Direct, Oxford Journals, iOP Science, WoL, Springer Link y Virtual Pro y, por otro lado, el análisis de tipo Altmetric [3] con la base de datos Google Scholar, con el fin de obtener un estado del arte actualizado.
+Diseñar, modelar, desarrollar y documentar la mejora del prototipo funcional relevando la información obtenida en las etapas anteriores del proyecto. Se desarrollarán entregables parciales usables de productos de software.
+Diseñar un data set relevando información anterior del proyecto y grabando un set lo suficientemente extenso de fonemas del cual el prototipo aprenderá para realizar las futuras traducciones.
+Confeccionar un informe que explique el trabajo realizado con su correspondiente marco teórico y una conclusión acorde al proyecto.
+Metodología
+A continuación, se presenta dentro de la siguiente ilustración, la metodología propuesta para el desarrollo del proyecto de investigación aplicada (PIA) de la asignatura correspondiente al año 2023 1er semestre (GPI 2023-I):
+
+5. Estudio Bibliométrico 
+5.1. Contexto 
+Se desea desarrollar un prototipo funcional de sistema de transcripción de análisis de voz, implementando técnicas de NLP, DL y tecnología STS. Por lo tanto, se va a desarrollar un previo análisis en cuanto a la documentación que existe en la actualidad sobre tecnologías relacionadas al proyecto.
+5.2. Instrumento de revisión bibliográfica
+El equipo de investigación del semestre pasado ocupó el software Publish or perish (Pop V8) para la revisión, este es un software de recuperación y análisis de citas académicas. Las búsquedas se pueden realizar directamente desde este software o importar archivos de formato específico para realizar el proceso de análisis y así obtener sus resultados.
+6. Términos relevantes para el proyecto
+Inteligencia artificial: Desarrollo de sistemas y máquinas inteligentes que puedan llevar a cabo tareas que requerirían inteligencia humana.
+Machine learning (ML): es un subconjunto de la inteligencia artificial, algoritmos cuyo rendimiento mejora a medida que son expuestos a más datos con el tiempo
+Deep learning (DL): corresponde a un subconjunto de machine learning en el cual redes neuronales multicapa aprenden de una enorme cantidad de datos.
+Speech to speech (StS): Sistema reconoce un lenguaje hablado el cual a partir de un análisis de voz y del lenguaje natural, genera un audio sintético como respuesta.
+Language (L): Facultad del ser humano de expresarse y comunicarse con los demás por medio de sonidos o sistemas de signos.
+Translation (T): Acción de expresar en una lengua lo que está escrito o se ha expresado antes en otra.
+Translation tool (TT): Sistema que facilita el proceso de traducción
+Natural language processing (NLP): corresponde a un campo de las ciencias de la computación, específicamente de la rama de inteligencia artificial, que ayuda a las computadoras a entender e interpretar y manipular el lenguaje humano.
+El software tiene la particularidad de que se pueden buscar 2 términos a la vez y arrojar un resultado. en el semestre pasado utilizaron estos términos en conjunto: 
+ML and T 
+StS and T
+L and TT
+NLP, DL and T.
+Videos de como usar publish or perish -> Publish or Perish TUTORIAL DE PUBLISH OR PERISH  
+Link de descarga -> https://harzing.com/blog/2021/10/publish-or-perish-version-8 
+Siguiente a la búsqueda los compañeros documentaron todo resultado, en formato de tablas.
+Esta tabla muestra la cantidad de resultados en cada base de datos con los términos anidados.
+ 
+En esta tabla se ve los resultados de solo una base de datos tomando como referencia los términos anidados y lo refleja en % ( lo ideal sería hacerlo con cada base de datos que se encuentra en los objetivos específicos. 
+
+Siguiente a esto los compañeros eligieron títulos relacionados al proyecto, por ejemplo títulos que tengan que ver con STS, machine translation, entre otros títulos llamativos. 
+Después relacionaron el título con la anidación de los términos por ejemplo: 
+ML and T : Machine Translation and Computer Aided English Translation
+Último paso
+NLP se consideró como contexto general del proyecto, por lo tanto los títulos relacionados no necesitan tanto detalle, solo se espera una descripción del estado actual de esta tecnología.
+Machine learning y deep learning son parte fundamental de las tecnologías a utilizar para el desarrollo del proyecto, por lo que se espera utilizar guías.
+Speech to speech, translation y translation tool van directamente enfocado a el objetivo del sistema a desarrollar.
+Lo ultimo seria clasificar de acuerdo a la utilidad para el proyecto
+por ejemplo -> uso de tecnología : Urban land ecological evaluation and English translation model optimization based on machine learning.
+Contexto: Machine Translation and Computer Aided English Translation.
+Modelos: Design of Networked Intelligent Translation System Based on Machine Learning Algorithm.
+Desarrollo del backend.
+Creación de APIs.
+Se crean los endpoints ocupando el lenguaje de programación Python y se definen los endpoints:
+POST → Enviar texto a traducir → Texto traducido
+GET → Listado de textos
+Esquema de la API:
+Códigos de idioma según ISO 639-2:
+Inglés: eng
+Español: spa
+Mapudungun: arn (araucano)
+Esquema similar a la Translation API de Google.
+Adecuación del conjunto de datos.
+El dataset se encontraba en formato txt donde la letra “M” indica la frase en mapuche y la letra “C” indica la traducción en castellano.
+
+
+Se realizó una concatenación con la herramienta “Cat” donde se unieron todos los archivos txt en uno más grande, además, se realizó un código en C con la finalidad de eliminar y separar las frases de español y en mapudungun y dejarlas en un archivo csv.
+
+Resultando un archivo csv de un tamaño de 223.095, con el formato de dos columnas una en idioma español y otra en mapudungun separados por “;” para la utilización en el modelo.
+
+Para finalizar realizando una limpieza manual ocupando el software Microsoft Excel donde se eliminaron las palabras repetidas y traducciones corruptas.
+Desarrollo del modelo.
+Las redes neuronales de tipo seq2seq (secuencia a secuencia) son un tipo de modelos de aprendizaje automático utilizados en tareas de procesamiento del lenguaje natural, como la traducción automática y la generación de texto. Estos modelos se basan en la idea de que es posible mapear secuencias de entrada a secuencias de salida de manera eficiente utilizando redes neuronales.
+Un modelo de redes neuronales seq2seq consta de dos partes principales: el encoder y el decoder. El encoder se encarga de procesar la secuencia de entrada y generar un contexto que representa el significado de la secuencia. Este contexto se utiliza por el decoder para generar la secuencia de salida.
+De esta manera, el modelo puede aprender a mapear secuencias de entrada a secuencias de salida de manera eficiente.
+Por ejemplo, en una tarea de traducción automática, el encoder procesaría la secuencia de entrada en el idioma de origen y generaría un contexto que representa su significado. Luego, el decoder utilizaría este contexto para generar la secuencia de salida en el idioma de destino. De esta manera, el modelo puede aprender a traducir de manera eficiente y precisa.
+
+En resumen, las redes neuronales de tipo seq2seq son un tipo de modelos de aprendizaje automático utilizados en tareas de procesamiento del lenguaje natural. Estos modelos constan de un encoder y un decoder que se encargan de procesar la secuencia de entrada y generar la secuencia de salida respectivamente, permitiendo que el modelo aprenda a mapear secuencias de entrada a secuencias de salida de manera eficiente y por lo cual se optó por utilizar dicho modelo de red para la aplicación.
+Implementación del modelo.
+Este código define una función llamada create_translator que se utiliza para crear un traductor de idiomas. La función toma dos argumentos de entrada, source y target, que representan el idioma de origen y el idioma de destino, respectivamente. Dentro de la función, se llama a la función parse para leer un archivo de texto que contiene pares de oraciones en el idioma de origen y su traducción al idioma de destino. La función parse devuelve dos listas, una para las oraciones de origen y otra para las oraciones de destino. La función create_translator luego devuelve una tupla que contiene las dos listas.
+
+El código crea dos diccionarios, uno para las palabras en el idioma de origen y otro para las palabras en el idioma de destino. Luego, agrega tokens especiales a las oraciones de entrada y salida, luego realiza el padding para que todas las oraciones tengan la misma longitud. Finalmente, convierte las palabras en tokens numéricos mediante los diccionarios creados anteriormente.
+
+El código crea un modelo de traducción seq2seq utilizando la librería keras_transformer. Primero se carga un archivo de texto que contiene pares de frases en dos idiomas, y se dividen en partes para usarse como datos de entrenamiento, validación y prueba. Luego se construyen diccionarios para cada idioma, que asignan un índice numérico a cada palabra en el idioma. Se agrega un token especial al inicio y al final de cada frase, y se añade padding a las frases para que todas tengan el mismo tamaño.
+A continuación, se construye el modelo utilizando la función get_model de la librería
+keras_transformer, que crea una red seq2seq con una arquitectura de transformer. Se compila el modelo y se entrena utilizando los datos de entrenamiento. Una vez entrenado, se cargan los pesos del modelo y se usan para hacer predicciones en los datos de prueba. La función decode se utiliza para decodificar las predicciones y devolverlas en forma de texto en lugar de índices numéricos.
+
+
+
